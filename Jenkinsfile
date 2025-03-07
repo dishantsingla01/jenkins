@@ -2,7 +2,7 @@ pipeline {
     agent any
     
     environment {
-        DIRECTORY_PATH = 'Vhttps://github.com/dishantsingla01/jenkins/new/main'
+        DIRECTORY_PATH = 'https://github.com/dishantsingla01/jenkins/new/main'
         TESTING_ENVIRONMENT = 'deployig'
         PRODUCTION_ENVIRONMENT = 'Dishant'
     }
