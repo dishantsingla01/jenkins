@@ -2,8 +2,8 @@ pipeline {
     agent any
     
     environment {
-        DIRECTORY_PATH = 'https://github.com/dishantsingla01/jenkins/new/main'
-        TESTING_ENVIRONMENT = 'deployig'
+        DIRECTORY_PATH = 'https://github.com/dishantsingla01/jenkins.git'
+        TESTING_ENVIRONMENT = 'deploying'
         PRODUCTION_ENVIRONMENT = 'Dishant'
     }
     
@@ -46,5 +46,5 @@ pipeline {
                 echo "Deploying to production environment: ${PRODUCTION_ENVIRONMENT}"
             }
         }
-    }
+    }  
 }
