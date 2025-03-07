@@ -46,7 +46,5 @@ pipeline {
                 echo "Deploying to production environment: ${PRODUCTION_ENVIRONMENT}"
             }
         }
-    
-        
     }
 }
